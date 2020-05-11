@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LH Mang</title>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body class="flex v">
+    <div id="top-bar" class="theme-blue-bg flex">
+      <span>2020年5月10日 第35周 (星期日)</span>
+    </div>
+    <input type="checkbox" id="toggle" />
+    <div id="sidebar">
+      <ul>
+        <li><a href="">本校消息</a></li>
+        <li><a href="">網址精選</a></li>
+        <li><a href="">超級月曆</a></li>
+        <li><a href="">學校行事曆</a></li>
+        <li><a href="">小學部</a></li>
+        <li><a href="">幼稚園</a></li>
+        <li><a href="">校園危機管理小組</a></li>
+        <li><a href="">電子校園系統簡介</a></li>
+        <li><a href="">遠程協作學習實驗</a></li>
+      </ul>
+      <label class="theme-blue-bg flex center arrow" for="toggle">
+        <i class="fas fa-arrow-right"></i>
+      </label>
+    </div>
+    <main class="flex v">
+      <form action="" class="flex" id="login">
+        <img src="http://louhau.com/www/image/lh.gif" alt="" id="logo" />
+        <span class="flex">
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="用戶名"
+          />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="密碼"
+          />
+          <input type="submit" value="登入" class="confirm" />
+        </span>
+      </form>
+      <strong class="flex theme-blue" id="slogan">
+        <span>勤學守紀</span>
+        <span>慎行多思</span>
+        <span>誠懇樸實</span>
+        <span>互助互愛</span>
+        <span>勇於進取</span>
+        <span>愛國愛澳</span>
+      </strong>
+      <div class="floating" id="news">
+        <div class="carousel">
+          <div class="cell flex">
+            <img src="http://louhau.com/www/image/mouse1.jpg" alt="" />
+            <article class="theme-blue-bg">
+              <h1>喜迎金鼠賀新春</h1>
+              <p>
+                為歡慶澳門特別行政區成立二十周年、弘揚中華傳統文化，我校中學部於農曆新年前夕，在室內球場舉行了“中華文化日之迎金鼠年宵廟會”。是次活動得到澳門基金會資助部份經費。
+              </p>
+              <a href="#news-mouse1" data-lity>查看更多...</a>
+              <div id="news-mouse1" class="lity-hide popup">
+                <header class="theme-blue-bg flex">
+                  <h1>喜迎金鼠賀新春</h1>
+                </header>
+                <article>
+                  <p>
+                    為歡慶澳門特別行政區成立二十周年、弘揚中華傳統文化，我校中學部於農曆新年前夕，在室內球場舉行了“中華文化日之迎金鼠年宵廟會”。是次活動得到澳門基金會資助部份經費。
+                  </p>
+                  <p>
+                    當天下午，我校邀請了一眾嘉賓於室內球場進行“筆舞龍蛇寫華章，師生揮筆顯才華”揮春書法表演，獲邀嘉賓有：唐志堅校務顧問、萬群校務顧問、退休教師黃淑珊老師及何燕瓊老師、趙正輝老師、冼偉雄老師、湯建輝老師、黃健努老師、何慧敏老師及李妙娟老師等。隨後，高中部師生一同觀看電影《周恩來的四個晝夜》，回顧建國初困難時期的艱辛歷程，感受周總理的偉大人格和奉獻精神。初中部師生則進行揮春書法比賽。
+                  </p>
+                  <p>
+                    同時，師生們在三樓平台共同參與了豐富多彩的攤位遊戲，包括有：“團團圓圓工作坊”，“禮儀之邦——中華傳統禮儀之揖禮與拜禮”，“天衣無縫——民族服裝知多少”，“春城無處不飛花”，“撲朔‘謎’離”&nbsp;&nbsp;，“共賀佳節”，“‘寓’意吉祥”等，氣氛熱烈。
+                  </p>
+                  <p>
+                    是次年宵廟會在喜氣洋洋的溫馨氣氛中落下了帷幕，全校師生在喜迎中國年的同時亦感受到了中華文化深遠的魅力和自強不息的民族精神，產生了高度的民族自信心和濃濃的民族自豪感。
+                  </p>
+                </article>
+              </div>
+            </article>
+          </div>
+          <div class="cell flex">
+            <img src="http://louhau.com/www/image/mouse2.jpg" alt="" />
+            <article class="theme-blue-bg">
+              <h1>喜迎金鼠賀新春</h1>
+              <p>
+                為歡慶澳門特別行政區成立二十周年、弘揚中華傳統文化，我校中學部於農曆新年前夕，在室內球場舉行了“中華文化日之迎金鼠年宵廟會”。是次活動得到澳門基金會資助部份經費。
+              </p>
+              <a href="#news-mouse1" data-lity>查看更多...</a>
+            </article>
+          </div>
+          <div class="cell flex">
+            <img src="http://louhau.com/www/image/wuzu.jpg" alt="" />
+            <article class="theme-blue-bg">
+              <h1>第二十二屆全澳學界武術比賽成績</h1>
+              <p>
+                黃幸琳 女子E組初級長拳 第一名
+              </p>
+              <p>
+                黃幸琳 女子E組初級槍術 第二名
+              </p>
+              <p>
+                黃幸琳 女子E組初級劍術 第二名
+              </p>
+              <p>布曉晴 女子E組傳統拳術（南拳類） 第二名</p>
+              <p>
+                梁知行 女子E組傳統長器械 第一名
+              </p>
+              <a href="#news-wuzu" data-lity>查看更多...</a>
+              <div id="news-wuzu" class="lity-hide popup">
+                <header class="theme-blue-bg flex">
+                  <h1>第二十二屆全澳學界武術比賽成績</h1>
+                </header>
+                <article>
+                  <ul>
+                    <li>第二十二屆全澳學界武術比賽成績</li>
+                    <li>黃幸琳 女子E組初級長拳 第一名</li>
+                    <li>黃幸琳 女子E組初級槍術 第二名</li>
+                    <li>黃幸琳 女子E組初級劍術 第二名</li>
+                    <li>布曉晴 女子E組傳統拳術（南拳類） 第二名</li>
+                    <li>梁知行 女子E組傳統長器械 第一名</li>
+                    <li>梁知行 女子E組傳統短器械（南拳類） 第一名</li>
+                    <li>梁知行 女子E組傳統拳術（南拳類） 第五名</li>
+                    <li>楊寶盈 女子E組傳統短器械（南拳類） 第三名</li>
+                    <li>楊寶盈 女子E組傳統長器械 第五名</li>
+                    <li>江　月 女子E組32式太極劍 第一名</li>
+                    <li>劉穎怡 女子E組少年規定南拳 第二名</li>
+                    <li>陳斯雅 女子D組32式太極劍 第二名</li>
+                    <li>陳彩瑩 女子D組32式太極劍 第四名</li>
+                    <li>李俊英 女子D組傳統短器械 第一名</li>
+                    <li>李俊英 女子D組長器械（南拳類） 第一名</li>
+                    <li>李俊英 女子D組傳統拳術（長拳類） 第四名</li>
+                    <li>劉穎琳 女子D組傳統拳術（長拳類） 第三名</li>
+                    <li>鄭華熙 男子E組傳統長器械 第二名</li>
+                    <li>鄭華熙 男子E組傳統拳術（長拳類） 第三名</li>
+                    <li>梁祖旗 男子E組傳統短器械 第四名</li>
+                    <li>梁祖旗 男子E組傳統長器械（南拳類） 第五名</li>
+                    <li>蘇浩銘 男子E組少年規定南拳 第一名</li>
+                    <li>卓華榮 男子E組初級劍術 第三名</li>
+                    <li>卓華榮 男子E組初級槍術 第二名</li>
+                    <li>杜思毅 男子D組傳統短器械 第一名</li>
+                    <li>杜思毅 男子D組傳統拳術（長拳類） 第三名</li>
+                    <li>張高睿 男子D組24式太極拳 第一名</li>
+                    <li>張高睿 男子D組32式太極劍 第一名</li>
+                    <li>張高睿 男子D組初級槍術 第二名</li>
+                    <li>雷淦霖 男子D組傳統長器械（南拳類） 第二名</li>
+                    <li>雷淦霖 男子D組傳統短器械 第三名</li>
+                    <li>張駿禧 男子D組少年規定南拳 第一名</li>
+                    <li>張駿禧 男子D組初級刀術 第四名</li>
+                    <li>張駿禧 男子D組初級棍術 第四名</li>
+                    <li>何倬毅 男子C組少年規定南拳 第三名</li>
+                    <li>何倬毅 男子C組初級刀術 第五名</li>
+                    <li>何倬毅 男子C組初級棍術 第三名</li>
+                    <li>朱文善 女子C組傳統拳術（南拳類） 第一名</li>
+                    <li>朱文善 女子C組傳統長器械（南拳類） 第一名</li>
+                    <li>朱文善 女子C組傳統短器械（南拳類） 第一名</li>
+                    <li>李安琪 女子C組32式太極劍 第二名</li>
+                    <li>李安琪 女子C組24式太極拳 第三名</li>
+                    <li>蔣詩蓓 女子C組24式太極拳 第二名</li>
+                    <li>蔣詩蓓 女子C組32式太極劍 第三名</li>
+                    <li>許穎琳 女子C組傳統拳術（長拳類） 第五名</li>
+                    <li>許穎琳 女子C組傳統器械（南拳類） 第五名</li>
+                    <li>劉泱磊 女子B組傳統長器械（南拳類） 第一名</li>
+                    <li>劉泱磊 女子B組傳統拳術（長拳類） 第三名</li>
+                    <li>劉泱磊 女子B組傳統短器械（長拳類） 第三名</li>
+                    <li>梁穎琳 女子B組24式太極拳 第二名</li>
+                    <li>梁穎琳 女子B組24式太極劍 第二名</li>
+                    <li>翁碧怡 女子B組第一套國際競賽拳術 第二名</li>
+                    <li>梁家茵 女子A組傳統拳術（長拳類） 第一名</li>
+                    <li>梁家茵 女子A組傳統長器械（長拳類） 第一名</li>
+                    <li>梁佩雯 女子A組傳統短器械（南拳類） 第二名</li>
+                    <li>梁佩雯 女子A組傳統長器械（南拳類） 第三名</li>
+                    <li>梁祖峰 男子C組傳統拳術（南拳類） 第一名</li>
+                    <li>梁祖鋒 男子C組傳統長器械（長拳類） 第一名</li>
+                    <li>梁祖鋒 男子C組傳統短器械（南拳類） 第一名</li>
+                    <li>雷潤霖 男子C組傳統短器械（長拳類） 第一名</li>
+                    <li>雷潤霖 男子C組傳統長器械（長拳類） 第二名</li>
+                    <li>梁兆榮 男子C組傳統短器械（長拳類） 第三名</li>
+                    <li>麥桂福 男子B組傳統長器械（長拳類） 第一名</li>
+                    <li>麥桂福 男子B組傳統拳術（長拳類） 第二名</li>
+                    <li>王威業 男子B組傳統短器械（長拳類） 第三名</li>
+                    <li>梁祖鋒、張博睿 初級組對練項目 第一名</li>
+                    <li>初級集體項目 第一名</li>
+                    <li>高級集體項目 第二名</li>
+                  </ul>
+                </article>
+              </div>
+            </article>
+          </div>
+          <div class="cell flex">
+            <img src="http://louhau.com/www/image/bolin.jpg" alt="" />
+            <article class="theme-blue-bg">
+              <h1>教聯會舉辦慶雙慶保齡球同樂日其樂融融</h1>
+              <p>
+                教聯會慶雙慶保齡球同樂日於1月4日早上在佳景保齡球賽完滿舉行，當天分別進行了個人單打賽，康樂組——成人四人團體賽及家庭組——成人兒童混合四人團體賽。參與總人數超過四十人，同事及家屬通過本活動強身健體，更增進大家之間的互動交流，參與者們互相加油，現場氣氛溫馨熱鬧，參加者表示希望教聯會能多辦類似活動。賽後還有簡單而隆重的頒獎禮，由林倫偉副校長作頒獎嘉賓，大家還前往十六浦海風餐廳享用自助餐，為活動畫上完美句號。
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      $(".carousel").flickity({
+        // options
+        cellAlign: "left",
+        contain: true,
+        wrapAround: true,
+        autoPlay: true,
+      });
+    </script>
+  </body>
+</html>

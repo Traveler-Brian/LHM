@@ -1,3 +1,6 @@
+* {
+  font-family: "Microsoft JhengHei";
+}
 header #header {
   background: linear-gradient(white, #ffffff3b),
     url(http://louhau.com/estar/system/images2013/louhau.jpg);
@@ -15,13 +18,10 @@ header nav li:hover {
 }
 
 .news-content > * {
-  padding: 0.8vw;
+  padding: 0.5em;
+  padding-left: 1em;
   padding-right: 12%;
 }
-#carouselNews {
-  /*font-size: 1vw;*/
-}
-
 .news-content span {
   font-size: 1.2em;
 }
@@ -43,4 +43,5 @@ header nav li:hover {
   width: 3em;
   height: 5px;
   background-color: black;
+  opacity: 0.3;
 }

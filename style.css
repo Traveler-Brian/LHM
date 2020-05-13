@@ -13,3 +13,13 @@ header nav {
 header nav li:hover {
   background: #ffffff3b;
 }
+
+.news-content > * {
+  padding: 0.8vw;
+}
+.news-content span {
+  font-size: 1.2vw;
+}
+.news-content p {
+  font-size: 1vw;
+}

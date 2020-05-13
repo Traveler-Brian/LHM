@@ -16,10 +16,15 @@ header nav li:hover {
 
 .news-content > * {
   padding: 0.8vw;
+  padding-right: 10%;
 }
 .news-content span {
   font-size: 1.2vw;
 }
 .news-content p {
   font-size: 1vw;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 8% !important;
 }

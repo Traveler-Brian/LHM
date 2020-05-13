@@ -27,7 +27,7 @@ header nav li:hover {
 }
 @media (min-width: 576px) {
   .position-sm-static {
-    position: static !important;
+    position: absolute !important;
   }
 }
 /*-------------news component------------*/

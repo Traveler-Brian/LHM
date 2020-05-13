@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Great LHM 3.0</title>
-    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -26,14 +25,16 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./color.css" />
   </head>
   <body>
-    <header class="container-fluid p-0">
-      <div class="row mx-auto my-3" id="header">
+    <header class="container-fluid p-0 m-0">
+      <div class="row mx-auto p-0 m-0" id="header">
         <img
           src="http://louhau.com/www/image/lh.gif"
           alt="澳門勞工子弟學校"
-          class="col-4"
+          class="col-xl-3 col-lg-5 col-md-6 col-12"
           id="logo"
         />
       </div>
@@ -54,9 +55,9 @@
         </ul>
       </nav>
     </header>
-    <main class="container mt-4">
+    <main class="container-sm mt-4">
       <div class="row">
-        <div class="col-3">
+        <div class="col-xl-3 col-lg-3 col-md-5">
           <ul class="nav nav-tabs row no-gutters" id="login-tab" role="tablist">
             <li class="nav-item col-6">
               <a
@@ -92,7 +93,6 @@
               role="tabpanel"
               aria-labelledby="teacher-tab"
             >
-              <h1>TEACHER DESU</h1>
               <form action="" method="post" class="border border-primary p-4">
                 <div class="form-group">
                   <label for="username">用戶名</label>
@@ -121,7 +121,6 @@
               role="tabpanel"
               aria-labelledby="student-tab"
             >
-              <h1>STUDENT DESU</h1>
               <form action="" method="post" class="border border-primary p-4">
                 <div class="form-group">
                   <label for="username">用戶名</label>
@@ -146,9 +145,13 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <h2>最新消息</h2>
-          <div id="carouselNews" class="carousel slide" data-ride="carousel">
+        <div class="col-xl-9 col-lg-9 col-md-7">
+          <h3 class=>最新消息</h3>
+          <div
+            id="carouselNews"
+            class="carousel slide"
+            data-ride="carousel"
+          >
             <ol class="carousel-indicators">
               <li
                 data-target="#carouselNews"
@@ -158,91 +161,26 @@
               <li data-target="#carouselNews" data-slide-to="1"></li>
               <li data-target="#carouselNews" data-slide-to="2"></li>
               <li data-target="#carouselNews" data-slide-to="3"></li>
+              <li data-target="#carouselNews" data-slide-to="4"></li>
+              <li data-target="#carouselNews" data-slide-to="5"></li>
+              <li data-target="#carouselNews" data-slide-to="6"></li>
+              <li data-target="#carouselNews" data-slide-to="8"></li>
             </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
+            <div class="carousel-inner ">
+              <div class="carousel-item active border border-primary rounded">
                 <div class="row no-gutters">
-                  <div class="col news-img">
+                  <div class="col-xl-5 col-lg news-img">
                     <img
                       src="http://louhau.com/www/image/mouse1.jpg"
                       class="h-auto w-100"
                       alt="..."
                     />
                   </div>
-                  <div class="col d-flex flex-column news-content">
-                    <div class="flex-grow-0 bg-primary">
+                  <div class="col d-none d-lg-flex d-xl-flex flex-column news-content">
+                    <div class="flex-grow-0 bg-primary text-white">
                       <span>abcdefg</span>
                     </div>
-                    <div class="flex-grow-1 bg-secondary">
-                      <p>
-                        hijklm hqoie hkqo hjl nweghop w3;me kbhwi ope;mvkn lj
-                        berthu opwig ovmwk;ljrb klthu oij;v mwkekgb rnweljek rbw
-                        iei ofklqw jeih ol;jne rlwi l
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row no-gutters">
-                  <div class="col news-img">
-                    <img
-                      src="http://louhau.com/www/image/mouse1.jpg"
-                      class="w-100 h-auto"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="col d-flex flex-column news-content">
-                    <div class="flex-grow-0 bg-primary">
-                      <span>abcdefg</span>
-                    </div>
-                    <div class="flex-grow-1 bg-secondary">
-                      <p>
-                        hijklm hqoie hkqo hjl nweghop w3;me kbhwi ope;mvkn lj
-                        berthu opwig ovmwk;ljrb klthu oij;v mwkekgb rnweljek rbw
-                        iei ofklqw jeih ol;jne rlwi l
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row no-gutters">
-                  <div class="col news-img">
-                    <img
-                      src="http://louhau.com/www/image/mouse1.jpg"
-                      class="w-100 h-auto"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="col d-flex flex-column news-content">
-                    <div class="flex-grow-0 bg-primary">
-                      <span>abcdefg</span>
-                    </div>
-                    <div class="flex-grow-1 bg-secondary">
-                      <p>
-                        hijklm hqoie hkqo hjl nweghop w3;me kbhwi ope;mvkn lj
-                        berthu opwig ovmwk;ljrb klthu oij;v mwkekgb rnweljek rbw
-                        iei ofklqw jeih ol;jne rlwi l
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row no-gutters">
-                  <div class="col news-img">
-                    <img
-                      src="http://louhau.com/www/image/mouse1.jpg"
-                      class="w-100 h-auto"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="col d-flex flex-column news-content">
-                    <div class="flex-grow-0 bg-primary">
-                      <span>abcdefg</span>
-                    </div>
-                    <div class="flex-grow-1 bg-secondary">
+                    <div class="flex-grow-1 bg-light">
                       <p>
                         hijklm hqoie hkqo hjl nweghop w3;me kbhwi ope;mvkn lj
                         berthu opwig ovmwk;ljrb klthu oij;v mwkekgb rnweljek rbw

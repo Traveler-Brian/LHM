@@ -16,15 +16,31 @@ header nav li:hover {
 
 .news-content > * {
   padding: 0.8vw;
-  padding-right: 10%;
+  padding-right: 12%;
 }
+#carouselNews {
+  /*font-size: 1vw;*/
+}
+
 .news-content span {
-  font-size: 1.2vw;
+  font-size: 1.2em;
 }
 .news-content p {
-  font-size: 1vw;
+  font-size: 1em;
 }
 .carousel-control-next,
 .carousel-control-prev {
   width: 8% !important;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+}
+.carousel-indicators {
+  bottom: -2.5rem;
+}
+.carousel-indicators li {
+  width: 3em;
+  height: 5px;
+  background-color: black;
 }

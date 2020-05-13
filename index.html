@@ -25,7 +25,7 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./color.css" />
   </head>
   <body>
@@ -38,19 +38,70 @@
           id="logo"
         />
       </div>
-      <nav class="navbar row">
-        <ul class="nav nav-fill col-8 mx-auto">
-          <li class="nav-item">
-            <a href="" class="nav-link text-white">校園動態</a>
+      <nav class="navbar row p-0">
+        <ul class="nav nav-fill container-sm mx-auto">
+          <li class="nav-item dropdown">
+            <a
+              class="dropdown-toggle nav-link text-white"
+              href="#"
+              role="button"
+              id="dropdownMenu1"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+            >
+              校園動態
+            </a>
+
+            <div
+              class="dropdown-menu w-100 m-0 p-0"
+              aria-labelledby="dropdownMenu1"
+            >
+              <a class="dropdown-item" href="#">AAA</a>
+              <a class="dropdown-item" href="#">ABB</a>
+              <a class="dropdown-item" href="#">ACC</a>
+            </div>
           </li>
-          <li class="nav-item">
-            <a href="" class="nav-link text-white">校園動態</a>
+          <li class="nav-item dropdown">
+            <a
+              class="dropdown-toggle nav-link text-white"
+              href="#"
+              role="button"
+              id="dropdownMenu2"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+            >
+              學校簡介
+            </a>
+
+            <div
+              class="dropdown-menu w-100 m-0 p-0"
+              aria-labelledby="dropdownMenu2"
+            >
+              <a class="dropdown-item" href="#">BAA</a>
+              <a class="dropdown-item" href="#">BBB</a>
+              <a class="dropdown-item" href="#">BCC</a>
+            </div>
           </li>
-          <li class="nav-item">
-            <a href="" class="nav-link text-white">校園動態</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link text-white">校園動態</a>
+          <li class="nav-item dropdown">
+            <a
+              class="dropdown-toggle nav-link text-white"
+              href="#"
+              role="button"
+              id="dropdownMenu3"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+            >
+              聯系方式
+            </a>
+
+            <div
+              class="dropdown-menu w-100 m-0 p-0"
+              aria-labelledby="dropdownMenu3"
+            >
+              <a class="dropdown-item" href="#">CAA</a>
+              <a class="dropdown-item" href="#">CBB</a>
+              <a class="dropdown-item" href="#">CCC</a>
+            </div>
           </li>
         </ul>
       </nav>
@@ -145,13 +196,11 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-9 col-lg-9 col-md-7">
-          <h3 class=>最新消息</h3>
-          <div
-            id="carouselNews"
-            class="carousel slide"
-            data-ride="carousel"
-          >
+        <div
+          class="col-xl-9 col-lg-9 col-md-7 pt-xl-0pt-lg-0 pt-md-0 pt-sm-4 pt-4"
+        >
+          <h3 class="">最新消息</h3>
+          <div id="carouselNews" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li
                 data-target="#carouselNews"
@@ -166,151 +215,207 @@
               <li data-target="#carouselNews" data-slide-to="6"></li>
               <li data-target="#carouselNews" data-slide-to="7"></li>
             </ol>
-            <div class="carousel-inner "><div class="carousel-item  border border-primary rounded active">
-              <div class="row no-gutters">
-                <div class="col-xl-5 col-lg news-img">
-                  <img src="http://louhau.com/www/image/mouse1.jpg" class="h-auto w-100" alt="..." />
-                </div>
-                <div class="col d-none d-lg-flex d-xl-flex flex-column news-content">
-                  <div class="flex-grow-0 bg-primary text-white">
-                    <span>abcdefg</span>
+            <div class="carousel-inner border border-primary rounded">
+              <div class="carousel-item active">
+                <div class="row no-gutters">
+                  <div class="col-xl-5 col-lg news-img">
+                    <img
+                      src="http://louhau.com/www/image/mouse1.jpg"
+                      class="h-auto w-100"
+                      alt="..."
+                    />
                   </div>
-                  <div class="flex-grow-1 bg-light">
-                    <p>
-                      hijklm hqoie hkqo hjl nweghop w3;me kbhwi ope;mvkn lj
-                      berthu opwig ovmwk;ljrb klthu oij;v mwkekgb rnweljek rbw
-                      iei ofklqw jeih ol;jne rlwi l
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div><div class="carousel-item  border border-primary rounded">
-              <div class="row no-gutters">
-                <div class="col-xl-5 col-lg news-img">
-                  <img src="http://louhau.com/www/image/mouse1.jpg" class="h-auto w-100" alt="..." />
-                </div>
-                <div class="col d-none d-lg-flex d-xl-flex flex-column news-content">
-                  <div class="flex-grow-0 bg-primary text-white">
-                    <span>abcdefg</span>
-                  </div>
-                  <div class="flex-grow-1 bg-light">
-                    <p>
-                      hijklm hqoie hkqo hjl nweghop w3;me kbhwi ope;mvkn lj
-                      berthu opwig ovmwk;ljrb klthu oij;v mwkekgb rnweljek rbw
-                      iei ofklqw jeih ol;jne rlwi l
-                    </p>
+                  <div
+                    class="col d-none d-lg-flex d-xl-flex flex-column news-content"
+                  >
+                    <div class="flex-grow-0 bg-primary text-white">
+                      <span>abcdefg</span>
+                    </div>
+                    <div class="flex-grow-1 bg-light">
+                      <p>
+                        hijklm hqoie hkqo hjl nweghop w3;me kbhwi ope;mvkn lj
+                        berthu opwig ovmwk;ljrb klthu oij;v mwkekgb rnweljek rbw
+                        iei ofklqw jeih ol;jne rlwi l
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div><div class="carousel-item  border border-primary rounded">
-              <div class="row no-gutters">
-                <div class="col-xl-5 col-lg news-img">
-                  <img src="http://louhau.com/www/image/mouse1.jpg" class="h-auto w-100" alt="..." />
-                </div>
-                <div class="col d-none d-lg-flex d-xl-flex flex-column news-content">
-                  <div class="flex-grow-0 bg-primary text-white">
-                    <span>abcdefg</span>
+              <div class="carousel-item border border-primary rounded">
+                <div class="row no-gutters">
+                  <div class="col-xl-5 col-lg news-img">
+                    <img
+                      src="http://louhau.com/www/image/mouse1.jpg"
+                      class="h-auto w-100"
+                      alt="..."
+                    />
                   </div>
-                  <div class="flex-grow-1 bg-light">
-                    <p>
-                      hijklm hqoie hkqo hjl nweghop w3;me kbhwi ope;mvkn lj
-                      berthu opwig ovmwk;ljrb klthu oij;v mwkekgb rnweljek rbw
-                      iei ofklqw jeih ol;jne rlwi l
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div><div class="carousel-item  border border-primary rounded">
-              <div class="row no-gutters">
-                <div class="col-xl-5 col-lg news-img">
-                  <img src="http://louhau.com/www/image/mouse1.jpg" class="h-auto w-100" alt="..." />
-                </div>
-                <div class="col d-none d-lg-flex d-xl-flex flex-column news-content">
-                  <div class="flex-grow-0 bg-primary text-white">
-                    <span>abcdefg</span>
-                  </div>
-                  <div class="flex-grow-1 bg-light">
-                    <p>
-                      hijklm hqoie hkqo hjl nweghop w3;me kbhwi ope;mvkn lj
-                      berthu opwig ovmwk;ljrb klthu oij;v mwkekgb rnweljek rbw
-                      iei ofklqw jeih ol;jne rlwi l
-                    </p>
+                  <div
+                    class="col d-none d-lg-flex d-xl-flex flex-column news-content"
+                  >
+                    <div class="flex-grow-0 bg-primary text-white">
+                      <span>abcdefg</span>
+                    </div>
+                    <div class="flex-grow-1 bg-light">
+                      <p>
+                        hijklm hqoie hkqo hjl nweghop w3;me kbhwi ope;mvkn lj
+                        berthu opwig ovmwk;ljrb klthu oij;v mwkekgb rnweljek rbw
+                        iei ofklqw jeih ol;jne rlwi l
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div><div class="carousel-item  border border-primary rounded">
-              <div class="row no-gutters">
-                <div class="col-xl-5 col-lg news-img">
-                  <img src="http://louhau.com/www/image/mouse1.jpg" class="h-auto w-100" alt="..." />
-                </div>
-                <div class="col d-none d-lg-flex d-xl-flex flex-column news-content">
-                  <div class="flex-grow-0 bg-primary text-white">
-                    <span>abcdefg</span>
+              <div class="carousel-item border border-primary rounded">
+                <div class="row no-gutters">
+                  <div class="col-xl-5 col-lg news-img">
+                    <img
+                      src="http://louhau.com/www/image/mouse1.jpg"
+                      class="h-auto w-100"
+                      alt="..."
+                    />
                   </div>
-                  <div class="flex-grow-1 bg-light">
-                    <p>
-                      hijklm hqoie hkqo hjl nweghop w3;me kbhwi ope;mvkn lj
-                      berthu opwig ovmwk;ljrb klthu oij;v mwkekgb rnweljek rbw
-                      iei ofklqw jeih ol;jne rlwi l
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div><div class="carousel-item  border border-primary rounded">
-              <div class="row no-gutters">
-                <div class="col-xl-5 col-lg news-img">
-                  <img src="http://louhau.com/www/image/mouse1.jpg" class="h-auto w-100" alt="..." />
-                </div>
-                <div class="col d-none d-lg-flex d-xl-flex flex-column news-content">
-                  <div class="flex-grow-0 bg-primary text-white">
-                    <span>abcdefg</span>
-                  </div>
-                  <div class="flex-grow-1 bg-light">
-                    <p>
-                      hijklm hqoie hkqo hjl nweghop w3;me kbhwi ope;mvkn lj
-                      berthu opwig ovmwk;ljrb klthu oij;v mwkekgb rnweljek rbw
-                      iei ofklqw jeih ol;jne rlwi l
-                    </p>
+                  <div
+                    class="col d-none d-lg-flex d-xl-flex flex-column news-content"
+                  >
+                    <div class="flex-grow-0 bg-primary text-white">
+                      <span>abcdefg</span>
+                    </div>
+                    <div class="flex-grow-1 bg-light">
+                      <p>
+                        hijklm hqoie hkqo hjl nweghop w3;me kbhwi ope;mvkn lj
+                        berthu opwig ovmwk;ljrb klthu oij;v mwkekgb rnweljek rbw
+                        iei ofklqw jeih ol;jne rlwi l
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div><div class="carousel-item  border border-primary rounded">
-              <div class="row no-gutters">
-                <div class="col-xl-5 col-lg news-img">
-                  <img src="http://louhau.com/www/image/mouse1.jpg" class="h-auto w-100" alt="..." />
-                </div>
-                <div class="col d-none d-lg-flex d-xl-flex flex-column news-content">
-                  <div class="flex-grow-0 bg-primary text-white">
-                    <span>abcdefg</span>
+              <div class="carousel-item border border-primary rounded">
+                <div class="row no-gutters">
+                  <div class="col-xl-5 col-lg news-img">
+                    <img
+                      src="http://louhau.com/www/image/mouse1.jpg"
+                      class="h-auto w-100"
+                      alt="..."
+                    />
                   </div>
-                  <div class="flex-grow-1 bg-light">
-                    <p>
-                      hijklm hqoie hkqo hjl nweghop w3;me kbhwi ope;mvkn lj
-                      berthu opwig ovmwk;ljrb klthu oij;v mwkekgb rnweljek rbw
-                      iei ofklqw jeih ol;jne rlwi l
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div><div class="carousel-item  border border-primary rounded">
-              <div class="row no-gutters">
-                <div class="col-xl-5 col-lg news-img">
-                  <img src="http://louhau.com/www/image/mouse1.jpg" class="h-auto w-100" alt="..." />
-                </div>
-                <div class="col d-none d-lg-flex d-xl-flex flex-column news-content">
-                  <div class="flex-grow-0 bg-primary text-white">
-                    <span>abcdefg</span>
-                  </div>
-                  <div class="flex-grow-1 bg-light">
-                    <p>
-                      hijklm hqoie hkqo hjl nweghop w3;me kbhwi ope;mvkn lj
-                      berthu opwig ovmwk;ljrb klthu oij;v mwkekgb rnweljek rbw
-                      iei ofklqw jeih ol;jne rlwi l
-                    </p>
+                  <div
+                    class="col d-none d-lg-flex d-xl-flex flex-column news-content"
+                  >
+                    <div class="flex-grow-0 bg-primary text-white">
+                      <span>abcdefg</span>
+                    </div>
+                    <div class="flex-grow-1 bg-light">
+                      <p>
+                        hijklm hqoie hkqo hjl nweghop w3;me kbhwi ope;mvkn lj
+                        berthu opwig ovmwk;ljrb klthu oij;v mwkekgb rnweljek rbw
+                        iei ofklqw jeih ol;jne rlwi l
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
+              <div class="carousel-item border border-primary rounded">
+                <div class="row no-gutters">
+                  <div class="col-xl-5 col-lg news-img">
+                    <img
+                      src="http://louhau.com/www/image/mouse1.jpg"
+                      class="h-auto w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div
+                    class="col d-none d-lg-flex d-xl-flex flex-column news-content"
+                  >
+                    <div class="flex-grow-0 bg-primary text-white">
+                      <span>abcdefg</span>
+                    </div>
+                    <div class="flex-grow-1 bg-light">
+                      <p>
+                        hijklm hqoie hkqo hjl nweghop w3;me kbhwi ope;mvkn lj
+                        berthu opwig ovmwk;ljrb klthu oij;v mwkekgb rnweljek rbw
+                        iei ofklqw jeih ol;jne rlwi l
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item border border-primary rounded">
+                <div class="row no-gutters">
+                  <div class="col-xl-5 col-lg news-img">
+                    <img
+                      src="http://louhau.com/www/image/mouse1.jpg"
+                      class="h-auto w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div
+                    class="col d-none d-lg-flex d-xl-flex flex-column news-content"
+                  >
+                    <div class="flex-grow-0 bg-primary text-white">
+                      <span>abcdefg</span>
+                    </div>
+                    <div class="flex-grow-1 bg-light">
+                      <p>
+                        hijklm hqoie hkqo hjl nweghop w3;me kbhwi ope;mvkn lj
+                        berthu opwig ovmwk;ljrb klthu oij;v mwkekgb rnweljek rbw
+                        iei ofklqw jeih ol;jne rlwi l
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item border border-primary rounded">
+                <div class="row no-gutters">
+                  <div class="col-xl-5 col-lg news-img">
+                    <img
+                      src="http://louhau.com/www/image/mouse1.jpg"
+                      class="h-auto w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div
+                    class="col d-none d-lg-flex d-xl-flex flex-column news-content"
+                  >
+                    <div class="flex-grow-0 bg-primary text-white">
+                      <span>abcdefg</span>
+                    </div>
+                    <div class="flex-grow-1 bg-light">
+                      <p>
+                        hijklm hqoie hkqo hjl nweghop w3;me kbhwi ope;mvkn lj
+                        berthu opwig ovmwk;ljrb klthu oij;v mwkekgb rnweljek rbw
+                        iei ofklqw jeih ol;jne rlwi l
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item border border-primary rounded">
+                <div class="row no-gutters">
+                  <div class="col-xl-5 col-lg news-img">
+                    <img
+                      src="http://louhau.com/www/image/mouse1.jpg"
+                      class="h-auto w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div
+                    class="col d-none d-lg-flex d-xl-flex flex-column news-content"
+                  >
+                    <div class="flex-grow-0 bg-primary text-white">
+                      <span>abcdefg</span>
+                    </div>
+                    <div class="flex-grow-1 bg-light">
+                      <p>
+                        hijklm hqoie hkqo hjl nweghop w3;me kbhwi ope;mvkn lj
+                        berthu opwig ovmwk;ljrb klthu oij;v mwkekgb rnweljek rbw
+                        iei ofklqw jeih ol;jne rlwi l
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <a
               class="carousel-control-prev"

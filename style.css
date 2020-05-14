@@ -70,4 +70,22 @@ header nav li:hover {
   background-color: black;
   opacity: 0.2;
 }
+/*------------------ login box --------------------*/
+ul#login-tab a.active.nav-link {
+  border-bottom-color: white;
+}
+a#teacher-tab.active {
+  border-color: #335c33;
+  color: #70cd1f;
+}
+a#student-tab.active {
+  border-color: #36bbdc;
+  color: #00ccff;
+}
+.tab-pane#teacher.active {
+  border-color: #335c33 !important;
+}
+.tab-pane#student.active {
+  border-color: #1faacd !important;
+}
 /*--------------------------------------------*/

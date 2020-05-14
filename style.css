@@ -18,16 +18,24 @@ header nav li:hover {
 }
 
 /*------------------dropdown menu--------------------*/
-.dropdown:hover .dropdown-menu,
-.dropdown-menu:hover,
+
 .dropdown-menu.show {
   display: block;
   border-radius: 0 !important;
-  top: 99%;
+  top: 0;
 }
 @media (min-width: 576px) {
   .position-sm-static {
     position: absolute !important;
+  }
+  .dropdown-menu.show {
+    display: none;
+  }
+  .dropdown:hover .dropdown-menu,
+  .dropdown-menu:hover {
+    display: block;
+    border-radius: 0 !important;
+    top: 100%;
   }
 }
 /*-------------news component------------*/

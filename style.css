@@ -25,7 +25,7 @@ header nav li:hover {
   top: 0;
 }
 @media (min-width: 576px) {
-  .position-sm-static {
+  .position-sm-absolute {
     position: absolute !important;
   }
   .dropdown-menu.show {

@@ -56,9 +56,6 @@ header nav li:hover {
 .carousel-control-next,
 .carousel-control-prev {
   width: 8% !important;
-}
-.carousel-control-next,
-.carousel-control-prev {
   filter: invert(100%);
 }
 .carousel-indicators {

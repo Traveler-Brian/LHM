@@ -68,24 +68,14 @@ header nav li:hover {
   opacity: 0.2;
 }
 /*------------------ login box --------------------*/
-#login-tab {
-  border-color: #f99c1e;
-}
-#login-tab .nav-link:not(.active):hover {
-  border-bottom: 0;
-}
-#login-tab .nav-link.active {
-  border-color: #f99c1e #f99c1e #fff;
-}
-
 #login-tab-content {
   border-top: 0 !important;
 }
-
 #login-tab .nav-link.active,
 #login-tab-content .tab-pane .btn {
   color: white;
 }
+#login-tab a#teacher-tab:not(.active),
 #login-tab-content .tab-pane#teacher {
   color: #003300;
 }
@@ -93,6 +83,7 @@ header nav li:hover {
 #login-tab-content .tab-pane#teacher .btn {
   background: #335c33;
 }
+#login-tab a#student-tab:not(.active),
 #login-tab-content .tab-pane#student {
   color: #1faacd;
 }

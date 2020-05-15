@@ -4,3 +4,10 @@
 .border-primary {
   border-color: #002fa7 !important;
 }
+
+.bg-secondary {
+  background: #f99c1e !important;
+}
+.border-secondary {
+  border-color: #f99c1e !important;
+}

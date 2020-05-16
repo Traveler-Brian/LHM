@@ -59,23 +59,24 @@ li.nav-item {
 .collapse,
 .collapsing {
   z-index: 99;
+  display: block;
   font-size: 1rem;
 }
 #collapseMenu3 h6 {
   font-size: 1.2rem;
 }
 @media (min-width: 768px) {
-  .collapse {
+  .nav-collapse {
+    height: auto;
     font-size: 1rem;
+    display: block !important;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.2s linear;
   }
-  header nav li.nav-item:hover .collapse {
-    display: block;
-  }
-  .collapse.show {
-    display: none;
-  }
-  .md-no-transition {
-    transition: none !important;
+  header nav li.nav-item:hover .nav-collapse {
+    visibility: visible;
+    opacity: 1;
   }
   #collapseMenu1,
   #collapseMenu2,
@@ -90,7 +91,7 @@ li.nav-item {
   }
 }
 @media (min-width: 992px) {
-  .collapse {
+  .nav-collapse {
     font-size: 1.1rem;
   }
 }

@@ -1,6 +1,33 @@
 * {
   font-family: "Microsoft JhengHei";
 }
+/*-----------layout class--------------*/
+@media (min-width: 768px) {
+  .position-md-absolute {
+    position: absolute !important;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-3_5 {
+    flex: 0 0 29.166666666%;
+    max-width: 29.166666666%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+@media (min-width: 1200px) {
+  .col-xl-5_5 {
+    flex: 0 0 45.8333333333%;
+    max-width: 45.8333333333%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+/*------- banner --------*/
 #header {
   background: linear-gradient(white, #ffffff3b),
     url(http://louhau.com/estar/system/images2013/louhau.jpg);
@@ -16,14 +43,19 @@
 .qr-code {
   width: 25%;
 }
-header nav {
-  font-size: 1.2rem;
-}
-header nav li:hover {
+/*-----------nav bar----------------*/
+header nav li.nav-item:hover {
   background: #ffffff3b;
 }
-
-/*------------------dropdown menu--------------------*/
+li.nav-item {
+  font-size: 1.2rem;
+}
+@media (min-width: 768px) {
+  header nav li.nav-item {
+    font-size: 1.4rem;
+  }
+}
+/*------------------collapse menu--------------------*/
 .collapse,
 .collapsing {
   z-index: 99;
@@ -36,14 +68,11 @@ header nav li:hover {
   .collapse {
     font-size: 1rem;
   }
-  header nav li:hover .collapse {
+  header nav li.nav-item:hover .collapse {
     display: block;
   }
   .collapse.show {
     display: none;
-  }
-  .position-md-absolute {
-    position: absolute !important;
   }
   .md-no-transition {
     transition: none !important;

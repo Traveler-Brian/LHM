@@ -52,7 +52,7 @@ li.nav-item {
 }
 @media (min-width: 768px) {
   header nav li.nav-item {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 }
 /*------------------collapse menu--------------------*/

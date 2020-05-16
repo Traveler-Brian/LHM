@@ -2,5 +2,12 @@
   background: #002fa7 !important;
 }
 .border-primary {
-  border-color: #002fa7;
+  border-color: #002fa7 !important;
+}
+
+.bg-secondary {
+  background: #fdcb74 !important;
+}
+.border-secondary {
+  border-color: #fdcb74 !important;
 }

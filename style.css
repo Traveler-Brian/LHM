@@ -24,24 +24,45 @@ header nav li:hover {
 }
 
 /*------------------dropdown menu--------------------*/
-
-.dropdown-menu.show {
-  display: block;
-  border-radius: 0 !important;
-  top: 0;
+.collapse,
+.collapsing {
+  z-index: 99;
+  font-size: 1rem;
 }
-@media (min-width: 576px) {
-  .position-sm-absolute {
-    position: absolute !important;
+#collapseMenu3 h6 {
+  font-size: 1.2rem;
+}
+@media (min-width: 768px) {
+  .collapse {
+    font-size: 1rem;
   }
-  .dropdown-menu.show {
+  header nav li:hover .collapse {
+    display: block;
+  }
+  .collapse.show {
     display: none;
   }
-  .dropdown:hover .dropdown-menu,
-  .dropdown-menu:hover {
-    display: block;
-    border-radius: 0 !important;
-    top: 100%;
+  .position-md-absolute {
+    position: absolute !important;
+  }
+  .md-no-transition {
+    transition: none !important;
+  }
+  #collapseMenu1,
+  #collapseMenu2,
+  #collapseMenu3 {
+    width: 300%;
+  }
+  #collapseMenu2 {
+    left: -100%;
+  }
+  #collapseMenu3 {
+    left: -200%;
+  }
+}
+@media (min-width: 992px) {
+  .collapse {
+    font-size: 1.1rem;
   }
 }
 /*-------------news component------------*/
@@ -74,6 +95,10 @@ header nav li:hover {
   opacity: 0.2;
 }
 /*------------------ login box --------------------*/
+/*ul#login-tab a.active.nav-link {
+  border-bottom-color: white;
+}
+*/
 #login-tab-content {
   border-top: 0 !important;
 }

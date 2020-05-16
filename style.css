@@ -1,17 +1,23 @@
 * {
   font-family: "Microsoft JhengHei";
 }
-header #header {
+#header {
   background: linear-gradient(white, #ffffff3b),
     url(http://louhau.com/estar/system/images2013/louhau.jpg);
   background-size: cover;
 }
-header #logo {
-  margin: 20px 0;
+#social-media .btn {
+  width: 18%;
+}
+.popover-content {
+  min-width: 150px;
+  min-height: 150px;
+}
+.qr-code {
+  width: 25%;
 }
 header nav {
   font-size: 1.2rem;
-  background: #002fa7;
 }
 header nav li:hover {
   background: #ffffff3b;
@@ -75,20 +81,20 @@ header nav li:hover {
 #login-tab-content .tab-pane .btn {
   color: white;
 }
-#login-tab a#teacher-tab:not(.active),
-#login-tab-content .tab-pane#teacher {
+a#teacher-tab:not(.active),
+.tab-pane#teacher {
   color: #003300;
 }
-#login-tab a#teacher-tab.active,
-#login-tab-content .tab-pane#teacher .btn {
+a#teacher-tab.active,
+.tab-pane#teacher .btn {
   background: #335c33;
 }
-#login-tab a#student-tab:not(.active),
-#login-tab-content .tab-pane#student {
+a#student-tab:not(.active),
+.tab-pane#student {
   color: #1faacd;
 }
-#login-tab a#student-tab.active,
-#login-tab-content .tab-pane#student .btn {
+a#student-tab.active,
+.tab-pane#student .btn {
   background: #36bbdc;
 }
 /*--------------------------------------------*/

@@ -19,11 +19,7 @@ header nav li:hover {
 
 /*------------------dropdown menu--------------------*/
 
-.dropdown-menu.show {
-  display: block;
-  border-radius: 0 !important;
-  top: 0;
-}
+/*
 @media (min-width: 576px) {
   .position-sm-absolute {
     position: absolute !important;
@@ -36,8 +32,8 @@ header nav li:hover {
     display: block;
     border-radius: 0 !important;
     top: 100%;
-  }
-}
+  } 
+}*/
 /*-------------news component------------*/
 .blue-shadow {
   box-shadow: 0px 0px 0.5em 0.1em #618bf7;
@@ -68,7 +64,7 @@ header nav li:hover {
   opacity: 0.2;
 }
 /*------------------ login box --------------------*/
-ul#login-tab a.active.nav-link {
+/*ul#login-tab a.active.nav-link {
   border-bottom-color: white;
 }
 a#teacher-tab.active {
@@ -84,5 +80,5 @@ a#student-tab.active {
 }
 .tab-pane#student.active {
   border-color: #1faacd !important;
-}
+}*/
 /*--------------------------------------------*/

@@ -11,3 +11,14 @@
 .border-secondary {
   border-color: #fdcb74 !important;
 }
+
+.shadow-primary {
+  box-shadow: 0 0 0.5rem #002fa7;
+  /*  -webkit-filter: drop-shadow(0 0 4px #002fa7);
+  filter: drop-shadow(0 0 4px #002fa7);*/
+}
+.shadow-secondary {
+  box-shadow: 0 0 0.5rem #fdcb74;
+  /*  -webkit-filter: drop-shadow(0 0 4px #fdcb74);
+  filter: drop-shadow(0 0 4px #fdcb74);*/
+}

@@ -26,3 +26,7 @@
 .bg-shadow {
   background-color: #ededed;
 }
+
+#main {
+  background: linear-gradient(white, #f2f2f2);
+}

@@ -14,11 +14,15 @@
 
 .shadow-primary {
   box-shadow: 0 0 0.5rem #002fa7;
-  /*  -webkit-filter: drop-shadow(0 0 4px #002fa7);
-  filter: drop-shadow(0 0 4px #002fa7);*/
 }
 .shadow-secondary {
   box-shadow: 0 0 0.5rem #fdcb74;
-  /*  -webkit-filter: drop-shadow(0 0 4px #fdcb74);
-  filter: drop-shadow(0 0 4px #fdcb74);*/
+}
+
+.shadow {
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.bg-shadow {
+  background-color: #ededed;
 }

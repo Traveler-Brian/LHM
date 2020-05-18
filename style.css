@@ -60,7 +60,7 @@ a {
 }
 /*-----------nav bar----------------*/
 header nav li.nav-item:hover {
-  background: #ffffff3b;
+  background: #3b5fbc;
 }
 li.nav-item {
   font-size: 1.2rem;
@@ -156,6 +156,7 @@ li.nav-item {
 a#teacher-tab:not(.active),
 .tab-pane#teacher {
   color: #003300;
+  background-color: white;
 }
 a#teacher-tab.active,
 .tab-pane#teacher .btn {
@@ -163,6 +164,7 @@ a#teacher-tab.active,
 }
 a#student-tab:not(.active),
 .tab-pane#student {
+  background-color: white;
   color: #1faacd;
 }
 a#student-tab.active,
